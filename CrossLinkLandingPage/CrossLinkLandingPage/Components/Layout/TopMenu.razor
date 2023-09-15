@@ -1,0 +1,93 @@
+﻿@using Blazorise.Localization
+@inject IJSRuntime JSRuntime
+
+<Bar @bind-Visible="@topbarVisible" 
+Breakpoint="Breakpoint.Desktop" 
+Background="Background.Primary" 
+ThemeContrast="ThemeContrast.Light"
+VerticalAlignment="VerticalAlignment.Middle">
+    <Container>
+        <BarStart>
+            <BarBrand>
+                <BarItem>
+                     <BarLink To="">
+                        <BarIcon Margin="Margin.Is2.FromEnd" IconName="IconName.Dashboard" />
+                        Cross Link
+                    </BarLink>
+                </BarItem>
+            </BarBrand>
+        </BarStart>
+        <BarToggler />
+        <BarMenu>
+            <BarEnd>
+                <BarItem>
+                    <BarLink To="/">Home</BarLink>
+                </BarItem>
+                <BarItem>
+                    <BarLink @onclick="() => ScrollToContainer(navProgress)">Progress</BarLink>
+                </BarItem>
+                <BarItem>
+                    <BarLink @onclick="() => ScrollToContainer(navAboutUs)">About Us</BarLink>
+                </BarItem>
+                <BarItem>
+                    <BarLink @onclick="() => ScrollToContainer(navTeam)">Team</BarLink>
+                </BarItem>
+                <BarItem>
+                    <BarLink @onclick="() => ScrollToContainer(navContactUt)">Contact Us</BarLink>
+                </BarItem>
+            </BarEnd>
+        </BarMenu>
+    </Container>
+</Bar>
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await SelectCulture( "en-US" );
+
+        await base.OnInitializedAsync();
+    }
+
+    Task SelectCulture( string name )
+    {
+        LocalizationService.ChangeLanguage( name );
+
+        return Task.CompletedTask;
+    }
+
+    private bool topbarVisible = false;
+
+    Task OnLayoutTypeChecked( string layoutType )
+    {
+        LayoutType = layoutType;
+
+        return LayoutTypeChanged.InvokeAsync( layoutType );
+    }
+
+    [Parameter] public EventCallback<bool> ThemeEnabledChanged { get; set; }
+
+    [Parameter] public EventCallback<bool> ThemeGradientChanged { get; set; }
+
+    [Parameter] public EventCallback<bool> ThemeRoundedChanged { get; set; }
+
+    [Parameter] public EventCallback<string> ThemeColorChanged { get; set; }
+
+    [Parameter] public string LayoutType { get; set; }
+
+    [Parameter] public EventCallback<string> LayoutTypeChanged { get; set; }
+
+    [Inject] protected ITextLocalizerService LocalizationService { get; set; }
+
+    [CascadingParameter] protected Theme Theme { get; set; }
+
+    public static string navProgress = "Progress";
+    public static string navAboutUs = "AboutUs";
+    public static string navTeam = "Team";
+    public static string navContactUt = "ContactUs";
+
+    @code {
+        private async Task ScrollToContainer(string pointer)
+        {
+            await JSRuntime.InvokeVoidAsync("ScrollToContainer", pointer);
+        }
+    }
+}

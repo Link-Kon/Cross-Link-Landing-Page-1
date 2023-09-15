@@ -1,0 +1,55 @@
+﻿@page "/"
+@inject IVersionProvider VersionProvider
+
+<Container Class="custom-page-size" ElementId="Home" TextAlignment="TextAlignment.Center">
+    <Div Class="mobile-height"/>
+    <Heading Size="HeadingSize.Is4" Margin="Margin.Is3.FromBottom">Awaken Connections,</Heading>
+    <Heading Size="HeadingSize.Is1" Margin="Margin.Is3.FromBottom">One Cross Link at a Time</Heading>
+    <Heading Size="HeadingSize.Is2" Margin="Margin.Is3.FromBottom">Strengthen the Bond</Heading>
+</Container>
+
+<Container Class="custom-page-size" ElementId="Progress">
+    <Div Style="height:10%;" />
+    <Heading Size="HeadingSize.Is2" >Progress:</Heading>
+</Container>
+    
+<Container Class="custom-page-size" ElementId="AboutUs">
+    <Div Style="height:10%;" />
+    <Heading Size="HeadingSize.Is2" >About Us:</Heading>
+</Container>
+
+<Container Class="custom-page-size" ElementId="Team">
+    <Div Style="height:10%;" />
+    <Heading Size="HeadingSize.Is2" >Team:</Heading>
+</Container>
+
+<Container Class="custom-page-size" ElementId="ContactUs">
+    <Div Style="height:10%;" />
+    <Heading Size="HeadingSize.Is2">Contact Us:</Heading>
+</Container>
+
+<style>
+    .custom-page-size {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+     @CustomStyle
+</style>
+
+@code {
+    private string CustomStyle = @"
+        @media (max-width: 767px) {
+            .mobile-height {
+                height: 0;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .mobile-height {
+                height: 20%;
+            }
+        }
+    ";
+}
