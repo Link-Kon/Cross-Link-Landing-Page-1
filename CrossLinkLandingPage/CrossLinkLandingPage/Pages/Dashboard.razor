@@ -2,7 +2,7 @@
 @inject IVersionProvider VersionProvider
 
 <Container Class="custom-page-size" ElementId="Home" TextAlignment="TextAlignment.Center">
-    <Div Class="mobile-height"/>
+    <Div Style="height:10%;" />
     <Heading Size="HeadingSize.Is4" Margin="Margin.Is3.FromBottom">Awaken Connections,</Heading>
     <Heading Size="HeadingSize.Is1" Margin="Margin.Is3.FromBottom">One Cross Link at a Time</Heading>
     <Heading Size="HeadingSize.Is2" Margin="Margin.Is3.FromBottom">Strengthen the Bond</Heading>
@@ -11,34 +11,127 @@
 <Container Class="custom-page-size" ElementId="Progress">
     <Div Style="height:10%;" />
     <Heading Size="HeadingSize.Is2" >Progress:</Heading>
+    <Div Style="height:10%;" />
+
+    <Progress Value="75" ShowValue Animated Striped Class="custom-progress" />
+    <Progress Value="75" ShowValue Animated Striped Class="custom-progress" />
+    <Progress Value="75" ShowValue Animated Striped Class="custom-progress" />
+    <Progress Value="75" ShowValue Animated Striped Class="custom-progress" />
+    <Progress Value="75" ShowValue Animated Striped Class="custom-progress" />
+
 </Container>
     
 <Container Class="custom-page-size" ElementId="AboutUs">
     <Div Style="height:10%;" />
     <Heading Size="HeadingSize.Is2" >About Us:</Heading>
+    <Div Style="height:10%;" />
+    <Row>
+        <Column ColumnSize="ColumnSize.Is6">
+            <Heading Size="HeadingSize.Is6" Style="text-align: justify;">
+                Somos Ez-mile, especialistas en salud y tecnología centrados en el cuidado del adulto mayor. 
+                Destacamos por nuestra organización, creatividad y enfoque innovador. Apasionados por la inteligencia artificial 
+                y el machine learning, estamos comprometidos a mejorar la calidad de vida de los adultos mayores a través 
+                de soluciones tecnológicas avanzadas
+            </Heading>
+            <Div Style="height:10%;" />
+            <Heading Size="HeadingSize.Is6" Style="text-align: justify;">
+                Nos destacamos por nuestra agilidad y capacidad para desarrollar soluciones efectivas. Fomentamos la comunicación
+                abierta y colaborativa para perfeccionar nuestras estrategias. Creemos firmemente que nuestra combinación de 
+                excelencia y enfoque innovador nos posiciona como líderes en la mejora de la calidad de vida de los adultos 
+                mayores a través de soluciones tecnológicas de vanguardia.
+            </Heading>
+        </Column>
+        <Column ColumnSize="ColumnSize.Is6">
+
+        </Column>
+    </Row>
 </Container>
 
 <Container Class="custom-page-size" ElementId="Team">
     <Div Style="height:10%;" />
     <Heading Size="HeadingSize.Is2" >Team:</Heading>
+    <Div Style="display:flex; justify-content: center;">
+        <Div Class="shadow-border" Style="padding: 5%; margin: 5% 10% 5% 10%;">
+            <Figure Size="FigureSize.Is256x256">
+                <FigureImage Source="/Diego.jpg" AlternateText="empty-256x256" Rounded />
+            </Figure>
+            <Div Style="font-size: 30px;">
+                Diego Henriquez
+            </Div>
+            <Div Style="text-align: justify; font-size: 20;">
+                Soy una mente creativa y luminosa, siempre ansiosa por abrazar nuevos desafíos con una pasión ardiente por convertir mis ideas en realidad. Creo en el poder de la innovación y en el impacto que puede tener en el mundo que nos rodea. Disfruto cada momento de colaboración en equipo, donde la sinergia de ideas y esfuerzos se convierte en una fuente inagotable de inspiración.
+            </Div>
+        </Div>
+        <Div Class="shadow-border" Style="padding: 5%; margin: 5% 10% 5% 10%;">
+            <Figure Size="FigureSize.Is256x256">
+                <FigureImage Source="/Patrick.jpeg" AlternateText="empty-256x256" Rounded />
+            </Figure>
+            <Div Style="font-size: 30px;">
+                Patrick Ortiz
+            </Div>
+            <Div Style="text-align: justify; font-size: 20;">
+               Poseo un enfoque analítico y una lógica impecable. No titubeo en tomar la iniciativa cuando es necesario. Mi determinación y firmeza en la toma de decisiones están respaldadas por argumentos sólidos. Busco una colaboración efectiva en equipo, destacándome por mi meticulosidad y organización en cada etapa del camino.
+            </Div>
+        </Div>
+    </Div>
 </Container>
 
 <Container Class="custom-page-size" ElementId="ContactUs">
     <Div Style="height:10%;" />
     <Heading Size="HeadingSize.Is2">Contact Us:</Heading>
+    <Div Style="height:5%;" />
+    <Row>
+        <Column ColumnSize="ColumnSize.Is6">
+            <Label for="name">Name</Label>
+            <TextEdit Class="rcorners2" Border="Border.Rounded" @bind-Text="name" />
+            <Div Style="height:10%;" />
+            <Label for="email">Email</Label>
+            <TextEdit Class="rcorners2" Border="Border.Rounded" @bind-Text="email" />
+            <Div Style="height:10%;" />
+            <Label for="message">Message</Label>
+            <MemoEdit Rows="7" Class="rcorners2" @bind-Text="message"/>
+            <Div Style="height:10%;"/>
+            <Button Color="Color.Primary" Clicked="@SendMessage">Send Message</Button>
+        </Column>
+        <Column ColumnSize="ColumnSize.Is6">
+
+        </Column>
+    </Row>
+
 </Container>
 
 <style>
     .custom-page-size {
-        height: 100%;
+        height: 50%;
         width: 100%;
         overflow: hidden;
     }
+
+    .rcorners2 {
+      border: 2px solid #73AD21 !important;
+      padding: 20px;
+
+    }
+
+    .shadow-border {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 2px shadow */
+    border: 2px solid #ccc; /* Gray border */
+}
+
 
      @CustomStyle
 </style>
 
 @code {
+    private string name;
+    private string email;
+    private string message;
+
+    private void SendMessage()
+    {
+        // Implement the logic to send the message here
+    }
+    
     private string CustomStyle = @"
         @media (max-width: 767px) {
             .mobile-height {

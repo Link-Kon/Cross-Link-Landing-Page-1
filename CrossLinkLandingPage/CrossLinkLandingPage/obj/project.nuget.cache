@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3dyXJ9YZFsNowcrXTWsSluepzluicLWOMM7JTZopPJCi5Bhw3lEIN05bBWVdZHOd7DSr8RsgjhY0qvQXupjGgw==",
+  "dgSpecHash": "hWD8BTB8mIumDQy1tdC+V8c/QDk1Pne0EJdSMSsgI7zDQKm4XzPu+MNyH1edn2xy99HHsnnTCBvSCRz+gWJRFA==",
   "success": true,
-  "projectFilePath": "D:\\UPC\\Ciclo 9\\Link_Project_EF\\CrossLinkLandingPage\\Cross-Link-Landing-Page\\CrossLinkLandingPage\\CrossLinkLandingPage\\CrossLinkLandingPage.csproj",
+  "projectFilePath": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\CrossLinkLandingPage.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diego\\.nuget\\packages\\blazorise\\1.1.7\\blazorise.1.1.7.nupkg.sha512",
     "C:\\Users\\Diego\\.nuget\\packages\\blazorise.bootstrap\\1.1.7\\blazorise.bootstrap.1.1.7.nupkg.sha512",

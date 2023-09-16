@@ -1,64 +1,76 @@
 {
   "Files": [
     {
-      "Id": "D:\\UPC\\Ciclo 9\\Link_Project_EF\\CrossLinkLandingPage\\Cross-Link-Landing-Page\\CrossLinkLandingPage\\CrossLinkLandingPage\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "D:\\UPC\\Ciclo 9\\Link_Project_EF\\CrossLinkLandingPage\\Cross-Link-Landing-Page\\CrossLinkLandingPage\\CrossLinkLandingPage\\obj\\Debug\\net6.0\\build-gz\\pDUA7a7z.gz",
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\obj\\Debug\\net6.0\\build-gz\\pDUA7a7z.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "D:\\UPC\\Ciclo 9\\Link_Project_EF\\CrossLinkLandingPage\\Cross-Link-Landing-Page\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\brand-logo.png",
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\Diego.jpg",
+      "PackagePath": "staticwebassets\\Diego.jpg"
+    },
+    {
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\Patrick.jpeg",
+      "PackagePath": "staticwebassets\\Patrick.jpeg"
+    },
+    {
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\brand-logo.png",
       "PackagePath": "staticwebassets\\brand-logo.png"
     },
     {
-      "Id": "D:\\UPC\\Ciclo 9\\Link_Project_EF\\CrossLinkLandingPage\\Cross-Link-Landing-Page\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\css\\blazor-ui.css",
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\css\\blazor-ui.css",
       "PackagePath": "staticwebassets\\css\\blazor-ui.css"
     },
     {
-      "Id": "D:\\UPC\\Ciclo 9\\Link_Project_EF\\CrossLinkLandingPage\\Cross-Link-Landing-Page\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\css\\material\\material.css",
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\css\\material\\material.css",
       "PackagePath": "staticwebassets\\css\\material\\material.css"
     },
     {
-      "Id": "D:\\UPC\\Ciclo 9\\Link_Project_EF\\CrossLinkLandingPage\\Cross-Link-Landing-Page\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\css\\material\\material.css.map",
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\css\\material\\material.css.map",
       "PackagePath": "staticwebassets\\css\\material\\material.css.map"
     },
     {
-      "Id": "D:\\UPC\\Ciclo 9\\Link_Project_EF\\CrossLinkLandingPage\\Cross-Link-Landing-Page\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\css\\material\\material.min.css",
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\css\\material\\material.min.css",
       "PackagePath": "staticwebassets\\css\\material\\material.min.css"
     },
     {
-      "Id": "D:\\UPC\\Ciclo 9\\Link_Project_EF\\CrossLinkLandingPage\\Cross-Link-Landing-Page\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\css\\material\\material.min.css.map",
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\css\\material\\material.min.css.map",
       "PackagePath": "staticwebassets\\css\\material\\material.min.css.map"
     },
     {
-      "Id": "D:\\UPC\\Ciclo 9\\Link_Project_EF\\CrossLinkLandingPage\\Cross-Link-Landing-Page\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\favicon.ico",
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\UPC\\Ciclo 9\\Link_Project_EF\\CrossLinkLandingPage\\Cross-Link-Landing-Page\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\index.html",
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\UPC\\Ciclo 9\\Link_Project_EF\\CrossLinkLandingPage\\Cross-Link-Landing-Page\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\js\\functions.js",
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\js\\functions.js",
       "PackagePath": "staticwebassets\\js\\functions.js"
     },
     {
-      "Id": "D:\\UPC\\Ciclo 9\\Link_Project_EF\\CrossLinkLandingPage\\Cross-Link-Landing-Page\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\js\\material\\material.js",
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\js\\material\\material.js",
       "PackagePath": "staticwebassets\\js\\material\\material.js"
     },
     {
-      "Id": "D:\\UPC\\Ciclo 9\\Link_Project_EF\\CrossLinkLandingPage\\Cross-Link-Landing-Page\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\js\\material\\material.js.map",
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\js\\material\\material.js.map",
       "PackagePath": "staticwebassets\\js\\material\\material.js.map"
     },
     {
-      "Id": "D:\\UPC\\Ciclo 9\\Link_Project_EF\\CrossLinkLandingPage\\Cross-Link-Landing-Page\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\js\\material\\material.min.js",
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\js\\material\\material.min.js",
       "PackagePath": "staticwebassets\\js\\material\\material.min.js"
     },
     {
-      "Id": "D:\\UPC\\Ciclo 9\\Link_Project_EF\\CrossLinkLandingPage\\Cross-Link-Landing-Page\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\js\\material\\material.min.js.map",
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\js\\material\\material.min.js.map",
       "PackagePath": "staticwebassets\\js\\material\\material.min.js.map"
+    },
+    {
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\netlify.toml",
+      "PackagePath": "staticwebassets\\netlify.toml"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CrossLinkLandingPage.Microsoft.AspNetCore.StaticWebAssets.props",
