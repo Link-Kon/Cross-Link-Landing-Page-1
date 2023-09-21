@@ -3,7 +3,7 @@
 
 <Bar @bind-Visible="@topbarVisible" 
 Breakpoint="Breakpoint.Desktop" 
-Background="Background.Primary" 
+Style="background-color:black; color: white;"
 ThemeContrast="ThemeContrast.Light"
 VerticalAlignment="VerticalAlignment.Middle">
     <Container>
@@ -11,8 +11,9 @@ VerticalAlignment="VerticalAlignment.Middle">
             <BarBrand>
                 <BarItem>
                      <BarLink To="">
-                        <BarIcon Margin="Margin.Is2.FromEnd" IconName="IconName.Dashboard" />
-                        Cross Link
+                        <Figure Size="FigureSize.Is24x24" Width="Width.Is25">
+                            <FigureImage Source="/crosslinklogo2.png" AlternateText="CrossLinkLogo" />
+                        </Figure>
                     </BarLink>
                 </BarItem>
             </BarBrand>
@@ -27,13 +28,13 @@ VerticalAlignment="VerticalAlignment.Middle">
                     <BarLink @onclick="() => ScrollToContainer(navProgress)">Progress</BarLink>
                 </BarItem>
                 <BarItem>
-                    <BarLink @onclick="() => ScrollToContainer(navAboutUs)">About Us</BarLink>
+                    <BarLink Style="min-inline-size: max-content;" @onclick="() => ScrollToContainer(navAboutUs)">About Us</BarLink>
                 </BarItem>
                 <BarItem>
                     <BarLink @onclick="() => ScrollToContainer(navTeam)">Team</BarLink>
                 </BarItem>
                 <BarItem>
-                    <BarLink @onclick="() => ScrollToContainer(navContactUt)">Contact Us</BarLink>
+                    <BarLink Style="min-inline-size: max-content;" @onclick="() => ScrollToContainer(navContactUt)">Contact Us</BarLink>
                 </BarItem>
             </BarEnd>
         </BarMenu>

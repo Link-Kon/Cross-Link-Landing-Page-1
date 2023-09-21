@@ -17,8 +17,24 @@
       "PackagePath": "staticwebassets\\Patrick.jpeg"
     },
     {
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\aboutUs.png",
+      "PackagePath": "staticwebassets\\aboutUs.png"
+    },
+    {
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\analyze1.jpg",
+      "PackagePath": "staticwebassets\\analyze1.jpg"
+    },
+    {
       "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\brand-logo.png",
       "PackagePath": "staticwebassets\\brand-logo.png"
+    },
+    {
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\contactUs.jpg",
+      "PackagePath": "staticwebassets\\contactUs.jpg"
+    },
+    {
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\crosslinklogo2.png",
+      "PackagePath": "staticwebassets\\crosslinklogo2.png"
     },
     {
       "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\css\\blazor-ui.css",
@@ -41,8 +57,28 @@
       "PackagePath": "staticwebassets\\css\\material\\material.min.css.map"
     },
     {
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\design1.jpg",
+      "PackagePath": "staticwebassets\\design1.jpg"
+    },
+    {
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\development.jpg",
+      "PackagePath": "staticwebassets\\development.jpg"
+    },
+    {
       "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\homePage.jpg",
+      "PackagePath": "staticwebassets\\homePage.jpg"
+    },
+    {
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\homePage_2.jpg",
+      "PackagePath": "staticwebassets\\homePage_2.jpg"
+    },
+    {
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\homePage_4.jpg",
+      "PackagePath": "staticwebassets\\homePage_4.jpg"
     },
     {
       "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\index.html",
@@ -71,6 +107,10 @@
     {
       "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\netlify.toml",
       "PackagePath": "staticwebassets\\netlify.toml"
+    },
+    {
+      "Id": "D:\\UPC\\Ciclo 9\\LandingNew\\Cross-Link-Landing-Page-1\\CrossLinkLandingPage\\CrossLinkLandingPage\\wwwroot\\validation.jpg",
+      "PackagePath": "staticwebassets\\validation.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CrossLinkLandingPage.Microsoft.AspNetCore.StaticWebAssets.props",
