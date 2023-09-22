@@ -2344,7 +2344,6 @@ D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLi
 D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\SHtA+Zsn.gz
 D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\Ciqc0okk.gz
 D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\h5+tWO0+.gz
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\t7gaxE+3.gz
 D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\g9z02nyd.gz
 D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\LL436aii.gz
 D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\5ck1RERb.gz
@@ -2437,7 +2436,6 @@ D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLi
 D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\4EdjZZat.gz
 D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\liJk+Llr.gz
 D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\DtLg6vEK.gz
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\Mq4Rx7TP.gz
 D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\MW6Bpgw7.gz
 D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\NC4E8kUS.gz
 D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\A0EzLPjO.gz
@@ -2497,19 +2495,5 @@ D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLi
 D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\refint\CrossLinkLandingPage.dll
 D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\CrossLinkLandingPage.pdb
 D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\ref\CrossLinkLandingPage.dll
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\bin\Debug\net6.0\wwwroot\_framework\Rebex.Common.dll
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\bin\Debug\net6.0\wwwroot\_framework\Rebex.Mail.dll
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\bin\Debug\net6.0\wwwroot\_framework\Rebex.Networking.dll
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\bin\Debug\net6.0\wwwroot\_framework\Rebex.Smtp.dll
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\bin\Debug\net6.0\wwwroot\_framework\Rebex.Smtp.dll.gz
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\bin\Debug\net6.0\wwwroot\_framework\Rebex.Networking.dll.gz
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\bin\Debug\net6.0\wwwroot\_framework\Rebex.Common.dll.gz
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\bin\Debug\net6.0\wwwroot\_framework\Rebex.Mail.dll.gz
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\bin\Debug\net6.0\Rebex.Common.dll
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\bin\Debug\net6.0\Rebex.Mail.dll
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\bin\Debug\net6.0\Rebex.Networking.dll
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\bin\Debug\net6.0\Rebex.Smtp.dll
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\pY6F3VKI.gz
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\wNmPB0kJ.gz
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\eG2OGEwD.gz
-D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\3+xo+lFy.gz
+D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\t7gaxE+3.gz
+D:\UPC\Ciclo 9\LandingNew\Cross-Link-Landing-Page-1\CrossLinkLandingPage\CrossLinkLandingPage\obj\Debug\net6.0\build-gz\Mq4Rx7TP.gz

@@ -4,7 +4,7 @@
 <Container Class="custom-page-size" 
     ElementId="Home" 
     TextAlignment="TextAlignment.Center"
-    Style="background-image: url('/homePage_4.jpg'); background-size: cover;">
+    Style="background-image: url('img/main/homePage_4.jpg'); background-size: cover;">
     <Div Style="height:10%;" />
     <Heading Size="HeadingSize.Is4" Margin="Margin.Is3.FromBottom">Awaken Connections,</Heading>
     <Heading Size="HeadingSize.Is1" Margin="Margin.Is3.FromBottom">One Cross Link at a Time</Heading>
@@ -17,43 +17,43 @@
 
     <CardDeck Style="margin:2%;">
         <Card>
-            <CardImage Source="/analyze1.jpg" Alt="Card image cap 3"></CardImage>
+            <CardImage Source="/img/main/analyze1.jpg" Alt="Card image cap 3"></CardImage>
             <CardBody>
                 <CardTitle Size="5">Analize:</CardTitle>
                 <CardText>
                     Analyze the components and technological tools, as well as the methodologies for the development of the project   
                 </CardText>
-                <Button Style="background-color: #82DE0E;">Button</Button>
+                <Button Clicked="@ShowAnalyzeModal" Style="background-color: #82DE0E;">Show more</Button>
             </CardBody>
         </Card>
         <Card>
-            <CardImage Source="/design1.jpg" Alt="Card image cap 9"></CardImage>
+            <CardImage Source="img/main/design1.jpg" Alt="Card image cap 9"></CardImage>
             <CardBody>
                 <CardTitle Size="5">Design:</CardTitle>
                 <CardText>
                     Design the hardware and software architecture with the help of schemes such as diagrams that allow the project an organized and orderly development.   
                 </CardText>
-                <Button Style="background-color: #82DE0E;">Button</Button>
+                <Button Clicked="@ShowDesignModal" Style="background-color: #82DE0E;">Show more</Button>
             </CardBody>
         </Card>
         <Card>
-            <CardImage Source="/development.jpg" Alt="Card image cap 12"></CardImage>
+            <CardImage Source="img/main/development.jpg" Alt="Card image cap 12"></CardImage>
             <CardBody>
                 <CardTitle Size="5">Development:</CardTitle>
                 <CardText>
                     Build the bracelet and implement the neural network algorithms for the interpretation of the heart rate and the detection of falls. Also, develop the mobile application. 
                 </CardText>
-                <Button Style="background-color: #82DE0E;">Button</Button>
+                <Button Clicked="@ShowDevelopmentModal" Style="background-color: #82DE0E;">Show more</Button>
             </CardBody>
         </Card>
         <Card>
-            <CardImage Source="/validation.jpg" Alt="Card image cap 12"></CardImage>
+            <CardImage Source="img/main/validation.jpg" Alt="Card image cap 12"></CardImage>
             <CardBody>
                 <CardTitle Size="5">Validation:</CardTitle>
                 <CardText>
                     Validate the data reading and the operation of the bracelet algorithms using the following characteristics: precision, sensitivity and specificity. Also, validate the mobile application data transaction.
                 </CardText>
-                <Button Style="background-color: #82DE0E;">Button</Button>
+                <Button Style="background-color: #82DE0E;">Show more</Button>
             </CardBody>
         </Card>
     </CardDeck>
@@ -76,7 +76,7 @@
         </Column>
         <Column ColumnSize="ColumnSize.Is6">
             <Figure Size="FigureSize.Is256x256">
-                <FigureImage Source="/aboutUs.png" AlternateText="empty-256x256" Rounded />
+                <FigureImage Source="/img/main/aboutUs.png" AlternateText="empty-256x256" Rounded />
             </Figure>
         </Column>
     </Row>
@@ -88,7 +88,7 @@
     <Div Style="display:flex; justify-content: center;">
         <Div Class="shadow-border" Style=" background-color:#f0f7f6; padding: 5%; margin: 5% 10% 5% 10%;">
             <Figure Size="FigureSize.Is256x256">
-                <FigureImage Source="/Diego.jpg" AlternateText="empty-256x256" Rounded />
+                <FigureImage Source="/img/members/Diego.jpg" AlternateText="empty-256x256" Rounded />
             </Figure>
             <Div Style="font-size: 30px;">
                 Diego Henriquez
@@ -99,7 +99,7 @@
         </Div>
         <Div Class="shadow-border" Style="background-color:#f0f7f6; padding: 5%; margin: 5% 10% 5% 10%;">
             <Figure Size="FigureSize.Is256x256">
-                <FigureImage Source="/Patrick.jpeg" AlternateText="empty-256x256" Rounded />
+                <FigureImage Source="/img/members/Patrick.jpeg" AlternateText="empty-256x256" Rounded />
             </Figure>
             <Div Style="font-size: 30px;">
                 Patrick Ortiz
@@ -131,14 +131,114 @@
         </Column>
         <Column ColumnSize="ColumnSize.Is6">
             <Figure Size="FigureSize.Is256x256">
-                <FigureImage Source="/contactUs.jpg" AlternateText="empty-256x256" Rounded />
+                <FigureImage Source="/img/main/contactUs.jpg" AlternateText="empty-256x256" Rounded />
             </Figure>
         </Column>
     </Row>
 
 </Container>
 
+@*Analyse Modal*@
+<Modal @bind-Visible="@analyzeModal">
+    <ModalContent Centered Size="ModalSize.Large">
+        <ModalHeader Style="background:#82DE0E">
+            <ModalHeader Style="justify-content: left; vertical-align:middle;">
+                <Div Style="font-size:20px">
+                    <b>Phase 1:</b> Analyze
+                </Div>
+            </ModalHeader>
+        </ModalHeader>
+        <ModalBody>
+            <Carousel>
+                <CarouselSlide Name="1">
+                    <Image Source="img/progress/workflow.jpg" Display="Display.Block" Width="Width.Is100" />
+                </CarouselSlide>
+                <CarouselSlide Name="2">
+                    <Image Source="img/progress/languages.jpg" Display="Display.Block" Width="Width.Is100" />
+                </CarouselSlide>
+            </Carousel>
+        </ModalBody>
+        <ModalFooter Style="justify-content:center">
+            <Button Style="background-color: #82DE0E" Clicked="HideAnalyzeModal">
+                Close
+            </Button>
+        </ModalFooter>
+    </ModalContent>
+</Modal>
+
+@*Design Modal*@
+<Modal @bind-Visible="@designModal">
+    <ModalContent Centered Size="ModalSize.Large">
+        <ModalHeader Style="background:#82DE0E">
+            <ModalHeader Style="justify-content: left; vertical-align:middle;">
+                <Div Style="font-size:20px">
+                    <b>Phase 2:</b> Design
+                </Div>
+            </ModalHeader>
+        </ModalHeader>
+        <ModalBody>
+            <Carousel>
+                <CarouselSlide Name="1">
+                    <Image Source="img/progress/conceptIdea.jpg" Display="Display.Block" Width="Width.Is100" />
+                </CarouselSlide>
+                <CarouselSlide Name="2">
+                    <Image Source="img/progress/designGuide.jpg" Display="Display.Block" Width="Width.Is100" />
+                </CarouselSlide>
+                 <CarouselSlide Name="3">
+                    <Image Source="img/progress/mobileDesign.jpg" Display="Display.Block" Width="Width.Is100" />
+                </CarouselSlide>
+                <CarouselSlide Name="4">
+                    <Image Source="img/progress/pcbDesign.jpg" Display="Display.Block" Width="Width.Is100" />
+                </CarouselSlide>
+            </Carousel>
+        </ModalBody>
+        <ModalFooter Style="justify-content:center">
+            <Button Style="background-color: #82DE0E" Clicked="HideDesignModal">
+                Close
+            </Button>
+        </ModalFooter>
+    </ModalContent>
+</Modal>
+
+@*Development Modal*@
+<Modal @bind-Visible="@developmentModal">
+    <ModalContent Centered Size="ModalSize.Large">
+        <ModalHeader Style="background:#82DE0E">
+            <ModalHeader Style="justify-content: left; vertical-align:middle;">
+                <Div Style="font-size:20px">
+                    <b>Phase 3:</b> Development
+                </Div>
+            </ModalHeader>
+        </ModalHeader>
+        <ModalBody>
+            <Carousel>
+                <CarouselSlide Name="1">
+                    <Image Source="img/progress/printed1.jpg" Display="Display.Block" Width="Width.Is100" />
+                </CarouselSlide>
+                <CarouselSlide Name="2">
+                    <Image Source="img/progress/printed2.jpg" Display="Display.Block" Width="Width.Is100" />
+                </CarouselSlide>
+                 <CarouselSlide Name="3">
+                    <Image Source="img/progress/printed3.jpg" Display="Display.Block" Width="Width.Is100" />
+                </CarouselSlide>
+                <CarouselSlide Name="4">
+                    <Image Source="img/progress/prototype0.jpg" Display="Display.Block" Width="Width.Is100" />
+                </CarouselSlide>
+            </Carousel>
+        </ModalBody>
+        <ModalFooter Style="justify-content:center">
+            <Button Style="background-color: #82DE0E" Clicked="HideDevelopmentModal">
+                Close
+            </Button>
+        </ModalFooter>
+    </ModalContent>
+</Modal>
+
 <style>
+    .btn:hover {
+        background-color: #808080 !important;
+    }
+
     .custom-lateral-margins {
         padding-right: 20%;
         padding-left: 20%;
